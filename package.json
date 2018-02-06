@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "Generate magnet URLs for torrent clients given a hash",
   "main": "maglink.js",
-  "keywords": ["torrent", "bittorrent", "cli", "utitilies"],
+  "keywords": [
+    "torrent",
+    "bittorrent",
+    "cli",
+    "utitilies"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "maglink": "./maglink.js"
   },
   "author": "Stephen Buchanan",
   "license": "ISC"
